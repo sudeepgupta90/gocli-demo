@@ -60,7 +60,9 @@
 ## Scope of Improvement
 
 - Dockerise the entire Dev setup to not have hard depencies on system with VSCode devcontainer extension
-- Marshall the JSON Response into a `struct` for better operational capabilities
 - Have more specific commands where the user can actually signify their intent, example, return only meaning, or a specific context if it exists from the json response and only return something default as fallback if nothing is found
 - We can cache the API calls, so as to not keep searching for the same queries over and again locally into a SQLlite database with a TTL for these entries
+- Add Tests
+- Add a Package for parsing the results, and marshalling the JSON Response into a `struct` for better operational capabilities. Atm, these are all contained in the `main` pkg
+
 
