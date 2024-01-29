@@ -19,6 +19,13 @@
 
 - Export the API key with `export API_KEY=<key>`
 
+### Running the Project
+- To run the project
+  ```
+  make build
+  ./bin/cli --help
+  ```
+
 ## About the CLI
 - Welcome Screen for API
   ```
